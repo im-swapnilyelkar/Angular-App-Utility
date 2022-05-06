@@ -9,4 +9,6 @@ import { LoginComponent } from './login.component';
   imports: [CommonModule, MatInputModule, MatSliderModule],
   exports: [LoginComponent],
 })
-export class LoginModule {}
+export class LoginModule {
+  loginForm:FormGroup
+}

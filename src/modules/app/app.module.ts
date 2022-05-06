@@ -7,7 +7,7 @@ import { LoginModule } from '../login/login.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, LoginModule, BrowserAnimationsModule],
+  imports: [BrowserModule,FormsModule, LoginModule, BrowserAnimationsModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })

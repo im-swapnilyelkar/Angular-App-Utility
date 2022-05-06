@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css'],
   providers: [],
 })
-export class LoginComponent {}
+export class LoginComponent {
+  loginForm;
+}
